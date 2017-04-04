@@ -164,9 +164,10 @@ margin: 0 auto;
 
 .left-column{
   position: relative;
+  width: 400px;
   float: left;
   align-self: auto;
-  left: -200px;
+  left: -150px;
 }
 
 @media (max-width: 1000px){
@@ -179,22 +180,32 @@ margin: 0 auto;
 
 .popular{
   position: relative;
-  width: 200px;
+  width: 400px;
   background-color: blue;
 
+}
+
+.recomended-element-box img{
+  float:left;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .today{
   position: relative;
   background-color: blue;
-  width: 200px;
+  width: 400px;
 }
 
 .right-column{
   position: relative;
+  width: 300px;
   float: right;
   align-self: auto;
-  right: -200px;
+  right: -150px;
 }
 @media (max-width: 1000px){
   .right-column{
@@ -206,7 +217,7 @@ margin: 0 auto;
 
 .kittybot{
   position: relative;
-  width: 100px;
+  width: inherit;
 }
 
 .upcoming{
