@@ -9,6 +9,20 @@ body {
   line-height: normal;
 }
 
+p{
+  font-size: 20px;
+}
+
+.h2{
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+.h3{
+  font-size: 28px;
+  font-weight: bold;
+}
+
 .sup-header{
   position: static;
   width: 600px;
@@ -97,7 +111,6 @@ body {
   display:none;
 }
 
-
 .nav{
   background-color: white;
   height: 40px;
@@ -144,7 +157,6 @@ a:hover {
   .nav{
     width: 500px;
     font-size: 14px;
-
   }
   .hide-low{
     display: none;
@@ -168,23 +180,16 @@ a:hover {
   }
 }
 
-.main {
-  margin-top: 20px;
-  background-color: inherit;
-}
-
-
 .main{
-position: relative;
-background-color: #E2E2E2;
-border-color: green;
-border-width: 2px;
-border-style: double;
-margin: 0 auto;
-height:max-content;
-overflow: hidden;
-
-
+  position: relative;
+  background-color: #E2E2E2;
+  border-color: green;
+  border-width: 2px;
+  border-style: double;
+  margin: 0 auto;
+  margin-top: 20px;
+  height:auto;
+  overflow: auto;
 }
 
 @media (max-width: 450px){
@@ -246,13 +251,10 @@ overflow: hidden;
   margin-left: 30px;
 }
 
-
-
 .flex-container {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: #d9e3ed;
 }
-
 
 @media screen  and (max-width: 992px){
   .flex-container{
@@ -293,8 +295,6 @@ overflow: hidden;
   .left-column{
     width: 600px;
     margin-right: 20px;
-
-
   }
 }
 
@@ -302,9 +302,11 @@ overflow: hidden;
   position: relative;
   width: auto;
   background-color: #efefef;
-  margin: 5px;
+  margin-top: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 1px;
   overflow: auto;
-
 }
 
 .image{
@@ -312,7 +314,6 @@ overflow: hidden;
   margin-left: 2px;
   margin-top: 2px;
   margin-right: 20px;
-
 }
 
 .image > img{
@@ -322,22 +323,12 @@ overflow: hidden;
   border-radius: 5px;
 }
 
-h3{
-  font-size: 30px;
-  font-weight: bold;
-}
-
-p{
-  font-size: 20px;
-}
-
 .text{
   position: relative;
 }
 
 .buttons-left{
   float: left;
-
 }
 
 .buttons-right{
@@ -360,7 +351,16 @@ p{
   display: inline;
 }
 
+.show-more{
+  position: relative;
+  margin: 0 auto;
+  width: 180px;
+  margin-top: 10px;
+}
 
+.show-more > p{
+  display: inline;
+}
 
 .today{
   position: relative;
@@ -373,9 +373,8 @@ p{
   box-sizing: border-box;
   top:40px;
   border: 1px solid black;
-
-
 }
+
 @media screen and (max-width: 600px){
   .right-column{
     width: auto;
