@@ -110,6 +110,11 @@ body {
   align-items: center;
 }
 
+.nav img{
+  width: 20px;
+  height: 20px;
+}
+
 a {
     text-decoration: none;
     display: inline-block;
@@ -211,6 +216,7 @@ overflow: hidden;
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
+  font-size: 20px;
   line-height: 40px;
   background-color: #EBF5FB;
 }
@@ -225,6 +231,11 @@ overflow: hidden;
 
 .wellcome-form{
   display: inline;
+}
+
+.wellcome-form img{
+  width: 10px;
+  height: 10px;
 }
 
 #send-button{
@@ -292,17 +303,64 @@ overflow: hidden;
   width: auto;
   background-color: #efefef;
   margin: 5px;
+  overflow: auto;
 
 }
 
-.recomended-element-box img{
+.image{
   float:left;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-right: 20px;
+
+}
+
+.image > img{
+  width: 100px;
+  height: auto;
+  border: 1px solid red;
+  border-radius: 5px;
 }
 
 h3{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
+
+p{
+  font-size: 20px;
+}
+
+.text{
+  position: relative;
+}
+
+.buttons-left{
+  float: left;
+
+}
+
+.buttons-right{
+  float:right;
+  width: 150px;
+  display: inline-block;
+}
+
+.buttons-right > p{
+  display: inline;
+}
+
+.button {
+  width: 100px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.button > img, .button >p{
+  display: inline;
+}
+
+
 
 .today{
   position: relative;
