@@ -10,78 +10,64 @@
 </head>
 <body>
 
-  <div class="wide-header">
-    <div class="med-header">
-
-      <div class="medsup-header">
-        <a class ="logo"
-          <span><img height="60" src="./images/logo.png" width="60"></span>
-        </a>
-
-        <form class="formheader">
-            <label class="labelheader">
-
-                  <img height="14" src="./images/search.png" width="14">
 
 
-                  Discover your next favorite thing..
 
-            </label>
-        </form>
+  <navbar class="sup-header">
 
+    <a class ="logo"
+      <span><img src="./images/logo.png"></span>
+    </a>
 
-<!--
-<form class="formheader">
-    <label class="labelheader">
+    <form class="formheader" action="" method="get">
+      <label class="labelheader" for="busqueda">
         <span class="spanheader">
-          <img height="14" src="./images/search.png" width="14">
+          <button type="button" class="buttonhidden"><img src="./images/search.png" ></button>
         </span>
-        <div class="relleno">
-          Discover your next favorite thing..
-        </div>
-    </label>
-</form>
+      </label>
+      <input name="busqueda" placeholder="Discover your next favorite thing.." id="busqueda">
+    </form>
+
+    <a><strong>...LOGIN</strong></a>
+
+  </navbar>
+
+  <nav class="nav">
+      <a href="#" class="previous round">&#8249;</a>
+      <a href="Home">Home</a>
+      <a href="Tech">Tech</a>
+      <a href="Games">Games</a>
+      <a href="PodCast">PodCast</a>
+      <a href="Books">Books</a>
+      <a href="Art. inteligence<">Art. inteligence</a>
+      <a class="hide-low" href="Books">Books</a>
+      <a class="hide-low" href="Dev.Tools">Dev.Tools</a>
+      <a class="hide-low hide-medium" href="GetShetOne">GetShetOne</a>
+      <a class="hide-low hide-medium" href="Shuthome">Shuthome</a>
+      <a href="#" class="next round">&#8250;</a>
+  </nav>
 
 
--->
-
-        <strong>Login</strong>
-      </div>
-
-      <nav class="nav-header">
-        <div class="subNav-header">
-          <a class="lista">Home</a>
-          <a class="lista">Tech</a>
-          <a class="lista">Games</a>
-          <a class="lista">Pod Cast</a>
-          <a class="lista">Books</a>
-          <a class="lista">Artificial inteligence</a>
-          <a class="lista">Books</a>
-          <a class="lista">Developer Tools</a>
-          <a class="lista">Get Shet One</a>
-          <a class="lista">Shut home</a>
-        </div>
-      </nav>
-    </div>
-  </div>
 
 
 <div class="main">
-  MAIN
-    <div class="wellcome">
-      <strong>wellcome to product hunt</strong> Get the best new products in your inbox, daily
-      <form>
 
+    <div class="wellcome-block">
+      <div class="wellcome-text"><strong>wellcome to product hunt</strong>
+      Get the best new products in your inbox, daily</div>
+      <form class="wellcome-form">
             <input type="text" name="Name">
+            <input id="send-button" type="submit" value="Suscribe">
+            <img height="10" src="./images/close.png" width="10">
       </form>
-      <input id="send-button" type="submit" value="Suscribe">
-      <img height="10" src="./images/close.png" width="10">
     </div>
-    <div class="dates">
-            <div class="left-column">
 
-                <div class="popular">
+  <div class="flex-container">
+
+    <div class="left-column">
+
                     <h2>Popular this week</h2>
+
                     <div class="recomended-element-box">
                       <img src="./images/popular-this-week/app-1.png">
                       <h3>Duolingo Bots</h3>
@@ -139,8 +125,8 @@
                       <img src="./images/arrow-down.png">
                       <p>SHOW MORE</p>
                     </div>
-                </div>
-                <div class="today">
+
+
                     <h2>Today</h2>
                     <p>POPULAR</p>
                     <p>NEWEST</p>
@@ -197,29 +183,46 @@
                           <p>SHOW MORE</p>
                         </div>
                      </div>
-
-                </div>
+                     <div class="recomended-element-box">
+                         <img src="./images/today/app-3.png">
+                         <h3>The Electron Wheel</h3>
+                         <p>Turn your standar bycicle into an electric bike.</p>
+                         <div class="votes-box">
+                           <img src="./images/votes.png">
+                           <p>82</p>
+                         </div>
+                         <div class="coments">
+                           <img src="./images/comments.png">
+                           <p>9</p>
+                         </div>
+                       <div class="show-more">
+                         <img src="./images/arrow-down.png">
+                         <p>SHOW MORE</p>
+                       </div>
+                    </div>
             </div>
 
-            <div class="right-column">
+    <div class="right-column">
 
-                <div class="kittybot">
-                    <h3>Kittybot for Slack.</h3>
-                    <p>A friendly feline that sends you cool new things</p>
-                    <p># ADD KITTYBOT TO SLACK</p>
-                </div>
-                <div class="upcoming-live-chats">
-                  <img src="./images/today/app-2.png">
-                  <h3>Adam Bresvinik</h3>
-                  <p>VC at El Corte inglés</p>
-                  <button>RemindMe</button>
-                </div>
-                <div class="tweets">
-                  Twets
-                </div>
-                
-            </div>
+        <div class="kittybot">
+            <h3>Kittybot for Slack.</h3>
+            <p>A friendly feline that sends you cool new things</p>
+            <p># ADD KITTYBOT TO SLACK</p>
+        </div>
+        <div class="upcoming-live-chats">
+          <img src="./images/today/app-2.png">
+          <h3>Adam Bresvinik</h3>
+          <p>VC at El Corte inglés</p>
+          <button>RemindMe</button>
+        </div>
+        <div class="tweets">
+          Twets
+        </div>
+
     </div>
+
+  </div>
+
 </div>
 
 </body>
