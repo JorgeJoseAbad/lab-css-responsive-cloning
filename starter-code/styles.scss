@@ -253,6 +253,7 @@ a:hover {
 
 .flex-container {
   display: flex;
+  height: inherit;
   background-color: #d9e3ed;
 }
 
@@ -296,6 +297,30 @@ a:hover {
     width: 600px;
     margin-right: 20px;
   }
+}
+
+.header-column{
+  position: relative;
+  background-color: #efefef;
+  margin-top: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top:5px;
+  padding-bottom:5px;
+  overflow: auto;
+
+}
+.header-column > h2{
+  font-size: 25px;
+  float:left;
+}
+
+.header-column .ritht-align{
+  position: relative;
+  right: 5px;
+  float:right;
+  margin-left:10px;
+  display: inline;
 }
 
 .recomended-element-box{
@@ -353,13 +378,28 @@ a:hover {
 
 .show-more{
   position: relative;
-  margin: 0 auto;
-  width: 180px;
-  margin-top: 10px;
+  background-color: #efefef;
+  margin-top: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top:5px;
+  padding-bottom:5px;
+  overflow: auto;
+  text-align: center;
+
 }
 
 .show-more > p{
   display: inline;
+}
+
+.show-more > p .right-align{
+  position: relative;
+  right: 10px;
+}
+
+.show-more .h2{
+  float: left;
 }
 
 .today{
@@ -399,11 +439,81 @@ a:hover {
 
 .kittybot{
   position: relative;
-  width: inherit;
+
+  background-color: #efefef;
+  margin-top: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top:5px;
+  padding-bottom:5px;
+  overflow: auto;
+}
+.kittybot img{
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: right;
 }
 
-.upcoming{
+.kittybot .button{
   position: relative;
-  background-color: blue;
+  margin: 0 auto;
+  width: 200px;
+
+}
+.kittybot button{
+  background-color: #f45959;
+}
+
+
+.upcoming-chat{
+  clear:both;
+  margin-top: 2px;
+  position: relative;
+  background-color: #efefef;
+  height: 100px;
+
+}
+
+.upcoming-chat img{
   width: 100px;
+  height: auto;
+  float: left;
+  border-radius: 50px;
+}
+
+.upcoming-chat .text{
+  position:relative;
+  display: inline;
+  height: 100px;
+}
+
+.upcoming-chat .buttons{
+  position: absolute;
+  margin: auto;
+  height: 30px;
+  width: 50%;
+  bottom: 5px;
+  right: 5px;
+  height: 25px;
+}
+
+.upcoming-chat .buttons button{
+  height: inherit;
+}
+
+.tweets-container{
+  clear: both;
+  background-color: white;
+  height: 400px;
+
+}
+
+.tweets-scroll{
+  width: 90%;
+  height: inherit;
+  margin: auto;
+  background-color:blue;
+  overflow: scroll;
 }
