@@ -9,6 +9,10 @@ body {
   line-height: normal;
 }
 
+a{
+  color:blue;
+}
+
 p{
   font-size: 20px;
 }
@@ -439,7 +443,6 @@ a:hover {
 
 .kittybot{
   position: relative;
-
   background-color: #efefef;
   margin-top: 1px;
   margin-left: 5px;
@@ -448,6 +451,7 @@ a:hover {
   padding-bottom:5px;
   overflow: auto;
 }
+
 .kittybot img{
   height: 15px;
   width: 15px;
@@ -460,12 +464,11 @@ a:hover {
   position: relative;
   margin: 0 auto;
   width: 200px;
-
 }
+
 .kittybot button{
   background-color: #f45959;
 }
-
 
 .upcoming-chat{
   clear:both;
@@ -473,11 +476,11 @@ a:hover {
   position: relative;
   background-color: #efefef;
   height: 100px;
-
 }
 
 .upcoming-chat img{
-  width: 100px;
+  width: 80px;
+  margin: 10px;
   height: auto;
   float: left;
   border-radius: 50px;
@@ -492,7 +495,6 @@ a:hover {
 .upcoming-chat .buttons{
   position: absolute;
   margin: auto;
-  height: 30px;
   width: 50%;
   bottom: 5px;
   right: 5px;
@@ -503,17 +505,66 @@ a:hover {
   height: inherit;
 }
 
+
+//tweets area
 .tweets-container{
   clear: both;
-  background-color: white;
-  height: 400px;
+  width: 98%;
+  margin: auto;
+  background-color: rgb(239, 237, 243);
+  height: 300px;
+  overflow: hidden;
 
 }
 
+.tweets-header{
+  position: absolute;
+  width: 98%;
+  margin:auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: auto;
+  background-color: rgba(223, 223, 229, 0.5);
+  margin-bottom: 5px;
+}
+
 .tweets-scroll{
+  position: relative;
+  display: block;
+  clear: both;
   width: 90%;
   height: inherit;
   margin: auto;
-  background-color:blue;
+  margin-top:45px;
+  margin-bottom: 10px;
+  background-color: hsla(20, 90%, 78%, .75);
   overflow: scroll;
+}
+
+.tweet{
+  height: 100px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+
+.tweet-image{
+  height: 40px;
+}
+
+.tweet-image img{
+  width: 40px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.tweet-image-text{
+  height: auto;
+}
+
+.tweet-text{
+  clear: both;
+
 }
