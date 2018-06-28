@@ -2,6 +2,10 @@
 
 # HTML & CSS | Responsive Cloning Product Hunt
 
+## NOTE:
+Added a bit of jquery functionality on nav bar, for test purposes.
+HTML5, CSS3, SASS, Javascript (jquery), responsive behavior.
+
 ## Introduction
 
 [Product Hunt](https://www.producthunt.com/) is a website that lets users share and discover new products. The site, which was founded by Ryan Hoover in November 2013, is backed by Y Combinator. Users submit products which are listed in a linear format by day.

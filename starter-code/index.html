@@ -7,6 +7,8 @@
   <title>CSS Lab | Responsive Cloning | Product Hunt</title>
   <link rel="stylesheet" href="styles.min.css">
   <!--<link rel="stylesheet" href="styles.scss">-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -30,19 +32,34 @@
 
   </navbar>
 
+  <div class="scrollmenu">
+    <a href="#" class="previous"><img src="./images/arrow-prev.png"></a>
+    <a href="Home">Home</a>
+    <a href="Tech">Tech</a>
+    <a href="Games">Games</a>
+    <a href="PodCast">PodCast</a>
+    <a href="Books">Books</a>
+    <a href="Art. inteligence<">Art. inteligence</a>
+    <a href="Journals">Journals</a>
+    <a href="Dev.Tools">Dev.Tools</a>
+    <a href="GetShetOne">GetShetOne</a>
+    <a href="Shuthome">Shuthome</a>
+    <a href="#" class="next"><img src="./images/arrow-next.png"></a>
+  </div>
+
   <nav class="nav">
-      <a href="#" class="previous round"><img src="./images/arrow-prev.png"></a>
+      <button onclick="moveleft()" class="previous round"><img src="./images/arrow-prev.png"></button>
       <a href="Home">Home</a>
       <a href="Tech">Tech</a>
       <a href="Games">Games</a>
       <a href="PodCast">PodCast</a>
       <a href="Books">Books</a>
-      <a href="Art. inteligence<">Art. inteligence</a>
-      <a class="hide-low" href="Books">Books</a>
+      <a href="Art. inteligence<">Art. intel.</a>
+      <a class="hide-low" href="Journals">Journals</a>
       <a class="hide-low hide-medium" href="Dev.Tools">Dev.Tools</a>
-      <a class="hide-low hide-medium" href="GetShetOne">GetShetOne</a>
+      <a class="hide-low hide-medium" href="GetShetOne">GetShOne</a>
       <a class="hide-low hide-medium" href="Shuthome">Shuthome</a>
-      <a href="#" class="next round"><img src="./images/arrow-next.png"></a>
+      <button onclick="moverigth()" class="next round" ><img src="./images/arrow-next.png"></button>
   </nav>
 
 
@@ -396,5 +413,6 @@
 
 </div>
 
+<script src="index.js"></script>
 </body>
 </html>
