@@ -12,12 +12,13 @@
 </head>
 <body>
 
+  <div id="intro">A responsive HTML exercise, with CSS and SASS; and a bit of Javascript and Jquery</div>
 
   <navbar class="sup-header">
 
-    <a class ="logo"
+    <div class ="logo">
       <span><img src="./images/logo.png"></span>
-    </a>
+    </div>
 
     <form class="formheader" action="" method="get">
       <label class="labelheader" for="busqueda">
@@ -28,10 +29,12 @@
       <input name="busqueda" placeholder="Discover your next favorite thing.." id="busqueda">
     </form>
 
-    <a><strong>...LOGIN</strong></a>
+    <div class="login">
+      <a>...LOGIN</a>
+    </div>
+</navbar>
 
-  </navbar>
-
+<!-- Alternative navbar from w3schools
   <div class="scrollmenu">
     <a href="#" class="previous"><img src="./images/arrow-prev.png"></a>
     <a href="Home">Home</a>
@@ -46,6 +49,7 @@
     <a href="Shuthome">Shuthome</a>
     <a href="#" class="next"><img src="./images/arrow-next.png"></a>
   </div>
+-->
 
   <nav class="nav">
       <button onclick="moveleft()" class="previous round"><img src="./images/arrow-prev.png"></button>
@@ -61,9 +65,6 @@
       <a class="hide-low hide-medium" href="Shuthome">Shuthome</a>
       <button onclick="moverigth()" class="next round" ><img src="./images/arrow-next.png"></button>
   </nav>
-
-
-
 
 <div class="main">
 
